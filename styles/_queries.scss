@@ -1,0 +1,34 @@
+@media (max-width: 1000px) {
+  .component {
+    flex-direction: column;
+    width: 300px;
+  } 
+
+  .component__left {
+    text-align: center;
+
+    &-headline {
+      font-size: 2.5rem;
+      width: 100%;
+    }
+
+    &-description {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .component__right {
+    &-form input {
+      margin: .5rem 0;
+    }
+
+    &-form-submit {
+      margin-top: 2rem;
+    }
+
+    &-form p {
+      margin-top: 1rem;
+    }
+  }
+}
